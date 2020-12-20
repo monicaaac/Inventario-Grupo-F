@@ -1,0 +1,115 @@
+body {
+    background:white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+.style {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+.style-header,
+.style p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.style-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.style-header1 {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+.style-header2 {
+  background: #ebebeb;
+  padding: 20px;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  color: #555;
+}
+
+.style-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+
+.style p {
+  padding: 12px;
+}
+
+.style input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.style input[type="email"],
+.style input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+
+.style input[type="email"]:focus,
+.style input[type="password"]:focus {
+  border-color: #888;
+}
+
+
+.style button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #28d;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  
+}
+
+.style input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.style input[type="submit"]:hover {
+  background: #17c;
+}
+
+
+.style input[type="submit"]:focus {
+  border-color: #05a;
+}
